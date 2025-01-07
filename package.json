@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/MaxKessler5/TestNPMPackageInGithub#readme",
   "dependencies": {
-    "NpmForCommands": "git+https://github.com/MaxKessler5/NpmForCommands.git"
+    "NpmForCommands": "github:MaxKessler5/NpmForCommands"
   }
 }
