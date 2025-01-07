@@ -8,7 +8,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "description": "Tests using the NPMForCommands package from github: \r Can I add github link to package.json?\"# TestNPMPackageInGithub\"",
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/MaxKessler5/TestNPMPackageInGithub/issues"
   },
-  "homepage": "https://github.com/MaxKessler5/TestNPMPackageInGithub#readme"
+  "homepage": "https://github.com/MaxKessler5/TestNPMPackageInGithub#readme",
+  "dependencies": {
+    "NpmForCommands": "git+https://github.com/MaxKessler5/NpmForCommands.git"
+  }
 }
